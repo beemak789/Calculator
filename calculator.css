@@ -1,0 +1,85 @@
+[data-state = "selected"] {
+    background-color: gray;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+
+.calculator {
+    margin-top: 20px;
+    background-color: lightgray;
+    margin: auto;
+    width: 370px;
+    border: 10px solid darkblue;
+}
+
+.calculator_display {
+    font-size: xx-large;
+    padding: 10px;
+    width: 70%;
+    background-color: lightyellow;
+    margin: auto;
+    text-align:right;
+    margin-bottom: 20px;
+}
+
+.calculator_keys {
+    background-color: lightsteelblue;
+    padding: 30px;
+    font-size: 50px;
+    margin-bottom: 2px;
+}
+
+#operators-container > button {
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+#numbers123 > button {
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+#numbers456 > button {
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+#numbers789 > button {
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+#miscellaneous-container > button {
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+#clearbutton > button {
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+}
